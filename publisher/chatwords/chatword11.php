@@ -1,6 +1,3 @@
-<?php
-require_once 'chatwords/iconchatword.php';
-?>
 
 <div class="container-fluid">	
 	<div class="row">	
@@ -67,6 +64,7 @@ require_once 'chatwords/iconchatword.php';
     </div>
 </div>
 <script>
+document.getElementById('hideBlockIcon2').style.display = 'block'; //блок видимости меню курса
 // ВЫБРАТЬ ИЗ СПИСКА
 var buttonsubmit = document.getElementById("submit"); // событие на кнопке сравнения
 var rightanswer1="Nga"; //правильный ответ на первый вопрос

@@ -1,7 +1,4 @@
-<?php
-require_once 'chatwords/iconchatword.php';
 
-?>
 
 <div class="container-fluid">
 	<div class="row">

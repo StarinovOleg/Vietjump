@@ -1,6 +1,3 @@
-<?php
-require_once 'chatwords/iconchatword.php';
-?>
 
 <div class="container-fluid">	
 	<div class="row">	
@@ -25,6 +22,8 @@ require_once 'chatwords/iconchatword.php';
 </div>
 
 <script>
+document.getElementById('hideBlockIcon2').style.display = 'block'; //блок  меню курса
+
 			//ПРОИГРЫВАТЕЛЬ АУДИОФАЙЛА
 var audiobutton = document.getElementById("listenaudio"); // событие рандома
 var audio = new Audio(); //объект для хранения аудиофайла 

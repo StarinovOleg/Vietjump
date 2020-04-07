@@ -1,6 +1,4 @@
-<?php
-require_once 'developerwords/icondeveloperwords.php';
-?>
+
 
 <div class="container-fluid">
 	<div class="row">
@@ -10,7 +8,7 @@ require_once 'developerwords/icondeveloperwords.php';
 			<h3>Урок 1</h3> 
 			<h2>Bài 1</h2> 	
 			<h3>Топ 25 глаголов</h3> 	
-			<button onclick="start" class="button  btn-light btn-lg" id="start">НАЧАТЬ</button>	
+			<button class="button  btn-light btn-lg" id="start">НАЧАТЬ</button>	
 			</div>
 		<!--новый блок после перехода из тренировки--> 
 	</div>
@@ -19,6 +17,8 @@ require_once 'developerwords/icondeveloperwords.php';
 </div>
 
 <script>
+document.getElementById('hideBlockIcon1').style.display = 'block'; //блок  меню курса
+
 //НАЖАТИЕ СТАРТ
 var newbutton = document.getElementById("start"); // нажатие кнопки старт
 //кнопка старт

@@ -31,6 +31,7 @@ option4.addEventListener("mousedown", chekingnot());
 document.querySelector('#result').textContent = ""; // очистка
 
 
+//ФУНКЦИЯ ОТКЛЮЧЕНИЯ ЗВУКА 
 
 
 
@@ -40,15 +41,25 @@ function chekingnot() {
 	
 		document.querySelector('#result').textContent = "Неправильно";
 		document.getElementById("newsubmit").disabled = false; // кнопка  рандома не активна 
-	
+		
+		let audio = new Audio(); // Создаём новый элемент Audio
+		audio.src = 'audio/answer/noncorrect.mp3'; // Указываем путь к звуку "клика"
+		audio.autoplay = true; // Автоматически запускаем	
+		audio.volume=0.1;
+		
+
  }
 
 //ФУНКЦИЯ  ПРАВИЛЬНЫХ ОТВЕТОВ
 function cheking() {
 	
-		document.querySelector('#result').textContent = "Правильно";
+		document.querySelector('#result').textContent = "Правильно";		
 		document.getElementById("newsubmit").disabled = false; // кнопка  рандома не активна 
-
+		
+		let audio = new Audio(); // Создаём новый элемент Audio
+		audio.src = 'audio/answer/correct.mp3'; // Указываем путь к звуку "клика"
+		audio.autoplay = true; // Автоматически запускаем	
+		audio.volume=0.1;
  };
  
 //  ФУНКЦИЯ перемешивание кнопок DOM
@@ -75,8 +86,8 @@ function systemwork(){
 
 	//ОБЪЕДИНЕНИЕ ДВУХ МАССИВОВ В ОДИН ОБЪЕКТ
 	var obj = {};
-	for(var i = 0; i < vword.length; i++) {
-		obj[vword[i]] = rword[i];
+	for(var i = 0; i < rword.length; i++) {
+		obj[rword[i]] = vword[i];
 	}
 
 

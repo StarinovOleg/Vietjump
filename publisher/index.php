@@ -83,12 +83,15 @@
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		}else if ((isset($_GET["var6"]) && $_GET["var6"] == 'value')) 	{
+		require_once 'courseshell.php';	
 		require_once 'chatwords/chatword1.php';
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		}else if ((isset($_GET["var7"]) && $_GET["var7"] == 'value')) 	{
+		require_once 'courseshell.php';			
 		require_once 'developerwords/developerword1.php';
+
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');		
@@ -345,57 +348,74 @@
 		 }
 		 
 		 else if((isset($_GET["chatword2"]) && $_GET["chatword2"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';	
 		require_once 'chatwords/chatword2.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword3"]) && $_GET["chatword3"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';	
 		require_once 'chatwords/chatword3.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword4"]) && $_GET["chatword4"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword4.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword5"]) && $_GET["chatword5"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword5.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword6"]) && $_GET["chatword6"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword6.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword7"]) && $_GET["chatword7"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword7.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword8"]) && $_GET["chatword8"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword8.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword9"]) && $_GET["chatword9"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword9.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword10"]) && $_GET["chatword10"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword10.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword11"]) && $_GET["chatword11"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword11.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["chatword12"]) && $_GET["chatword12"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
 		require_once 'chatwords/chatword12.php';
+	//удаление элемента див с главной страницы 
+		 echo ('<script>training.parentNode.removeChild(training);	 
+		 </script>');
+		 }else if((isset($_GET["chatword1"]) && $_GET["chatword1"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';			
+		require_once 'chatwords/chatword1.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
@@ -403,66 +423,79 @@
 		 
 		 
 		 else if((isset($_GET["un2chatword1"]) && $_GET["un2chatword1"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';
 		require_once 'chatwords/un2chatword1.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 } else if((isset($_GET["un2chatword2"]) && $_GET["un2chatword2"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';
 		require_once 'chatwords/un2chatword2.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword3"]) && $_GET["un2chatword3"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';
 		require_once 'chatwords/un2chatword3.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword4"]) && $_GET["un2chatword4"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword4.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword5"]) && $_GET["un2chatword5"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword5.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword6"]) && $_GET["un2chatword6"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword6.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword7"]) && $_GET["un2chatword7"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword7.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword8"]) && $_GET["un2chatword8"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword8.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword9"]) && $_GET["un2chatword9"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword9.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword10"]) && $_GET["un2chatword10"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword10.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword11"]) && $_GET["un2chatword11"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword11.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword12"]) && $_GET["un2chatword12"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword12.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if((isset($_GET["un2chatword13"]) && $_GET["un2chatword13"] == 'value')){ //ссылка на страницу тренировки
+		require_once 'courseshell.php';		
 		require_once 'chatwords/un2chatword13.php';
 	//удаление элемента див с главной страницы 
 		 echo ('<script>training.parentNode.removeChild(training);	 
@@ -471,37 +504,73 @@
 		 
 		 
 		 else if ((isset($_GET["developerword2"]) && $_GET["developerword2"] == 'value')) 	{
+		require_once 'connect.php';
+		require_once 'courseshell.php';				 
 		require_once 'developerwords/developerword2.php';
+
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if ((isset($_GET["developerword3"]) && $_GET["developerword3"] == 'value')) 	{
+			 
+		require_once 'connect.php';
+		require_once 'courseshell.php';	
 		require_once 'developerwords/developerword3.php';
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if ((isset($_GET["developerword4"]) && $_GET["developerword4"] == 'value')) 	{
+		require_once 'courseshell.php';			
 		require_once 'developerwords/developerword4.php';
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if ((isset($_GET["developerword5"]) && $_GET["developerword5"] == 'value')) 	{
+		require_once 'courseshell.php';			
 		require_once 'developerwords/developerword5.php';
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if ((isset($_GET["developerword6"]) && $_GET["developerword6"] == 'value')) 	{
+		require_once 'courseshell.php';			
 		require_once 'developerwords/developerword6.php';
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if ((isset($_GET["developerword7"]) && $_GET["developerword7"] == 'value')) 	{
+		require_once 'courseshell.php';			
 		require_once 'developerwords/developerword7.php';
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
 		 }else if ((isset($_GET["developerword8"]) && $_GET["developerword8"] == 'value')) 	{
+		require_once 'connect.php';		
+		require_once 'courseshell.php';			
 		require_once 'developerwords/developerword8.php';
+	//удаление элемента див с главной страницы 
+			 echo ('<script>training.parentNode.removeChild(training);	 
+		 </script>');
+		 }else if ((isset($_GET["developerword9"]) && $_GET["developerword9"] == 'value')) 	{
+		require_once 'courseshell.php';			
+		require_once 'developerwords/developerword9.php';
+	//удаление элемента див с главной страницы 
+			 echo ('<script>training.parentNode.removeChild(training);	 
+		 </script>');
+		 }else if ((isset($_GET["developerword10"]) && $_GET["developerword10"] == 'value')) 	{
+		require_once 'courseshell.php';			
+		require_once 'developerwords/developerword10.php';
+	//удаление элемента див с главной страницы 
+			 echo ('<script>training.parentNode.removeChild(training);	 
+		 </script>');
+		 }else if ((isset($_GET["developerword11"]) && $_GET["developerword11"] == 'value')) 	{
+		require_once 'courseshell.php';			
+		require_once 'developerwords/developerword11.php';
+	//удаление элемента див с главной страницы 
+			 echo ('<script>training.parentNode.removeChild(training);	 
+		 </script>');
+		 }else if ((isset($_GET["developerword12"]) && $_GET["developerword12"] == 'value')) 	{
+		require_once 'courseshell.php';			
+		require_once 'developerwords/developerword12.php';
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
@@ -512,6 +581,8 @@
 	</div>
 	</div>	
 </div>
+
+
 </section>
 <!--Футер-->
 

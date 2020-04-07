@@ -11,7 +11,7 @@
 			<a data-fancybox="gallery" href="images/visualdic/bus.jpg"><img src="images/visualdic/bus.jpg" class="cardpic" ></a>			
 			<a data-fancybox="gallery" href="images/visualdic/wedding.jpg"><img src="images/visualdic/wedding.jpg" class="cardpic" ></a>	
 			<a data-fancybox="gallery" href="images/visualdic/city.jpg"><img src="images/visualdic/city.jpg" class="cardpic" ></a>
-
+			<a data-fancybox="gallery" href="images/visualdic/bedroom.jpg"><img src="images/visualdic/bedroom.jpg" class="cardpic" ></a>
 		</div>
 
 

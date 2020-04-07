@@ -1,8 +1,3 @@
-<?php
-require_once 'chatwords/iconchatword.php';
-
-?>
-
 <div class="container-fluid">
 	<div class="row">
 	<div class="col-lg-12 col-sm-12 col-xs-12  post2  text-left text-md-center bg-primary ">

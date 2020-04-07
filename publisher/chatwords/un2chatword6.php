@@ -1,7 +1,3 @@
-<?php
-require_once 'chatwords/iconchatword.php';
-?>
-
 <div class="container-fluid">	
 	<div class="row">	
 		<div class="col-lg-12 col-sm-12 col-xs-12  post2  text-left text-md-center bg-primary ">
@@ -68,6 +64,7 @@ require_once 'chatwords/iconchatword.php';
     </div>
 </div>
 <script>
+document.getElementById('hideBlockIcon2').style.display = 'block'; //блок  меню курса
 // ВЫБРАТЬ ИЗ СПИСКА
 var buttonsubmit = document.getElementById("submit"); // событие на кнопке сравнения
 var rightanswer1="Kĩ sư"; //правильный ответ на первый вопрос

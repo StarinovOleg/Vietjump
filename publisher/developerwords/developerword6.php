@@ -1,9 +1,3 @@
-<?php
-require_once 'developerwords/icondeveloperwords.php';
-
-?>
-
-
 <div class="container-fluid">	
 	<div class="row">	
 		<div class="col-lg-3 col-sm-3 col-xs-3">	</div>
@@ -53,11 +47,11 @@ require_once 'developerwords/icondeveloperwords.php';
 </div>
 
 <script>
-	
-     //ПЕРЕХОД НА СЛЕДУЮЩУЮ СТРАНИЦУ
  BackWordPage.addEventListener("mousedown", function cheking(event) {
 	location.href = 'index.php?developerword7=value'; //переадресация на новую тренировку
  });	
+document.getElementById('hideBlockIcon1').style.display = 'block'; //блок  меню курса		
+
 </script>
 
 

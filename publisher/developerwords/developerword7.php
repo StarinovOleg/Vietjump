@@ -1,8 +1,3 @@
-<?php
-require_once 'developerwords/icondeveloperwords.php';
-
-?>
-
 
 <div class="container-fluid">	
 	<div class="row">	
@@ -35,9 +30,9 @@ require_once 'developerwords/icondeveloperwords.php';
 </div>
 
 <script>
-	
-     //ПЕРЕХОД НА СЛЕДУЮЩУЮ СТРАНИЦУ
  BackWordPage.addEventListener("mousedown", function cheking(event) {
 	location.href = 'index.php?developerword8=value'; //переадресация на новую тренировку
- });	
+ });		
+document.getElementById('hideBlockIcon1').style.display = 'block'; //блок  меню курса		
+	
 </script>

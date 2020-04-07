@@ -7855,3 +7855,12 @@ table.text{
 display:none;
 margin:1%;
 }
+
+#hideBlockIcon1 { /*скрывает див блоки оболочеккурса*/
+display:none;	
+margin-bottom:1%;
+}
+#hideBlockIcon2 { /*скрывает див блоки оболочеккурса*/
+display:none;	
+margin-bottom:1%;
+}
