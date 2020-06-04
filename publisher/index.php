@@ -34,7 +34,7 @@
 		<h2>Выбрать карточку для практики</h2>
 		
 		<h3>Тренировки:</h3>
-
+		<a href="index.php?var8=value" ><img src="images/cart8.png" class="cardpic animate1"></a>
 		<a href="index.php?var=value" ><img src="images/cart1.png" class="cardpic animate1"></a>
 		<a href="index.php?var2=value"><img src="images/cart2.png" class="cardpic animate1"></a>
 		<a href="index.php?var5=value"><img src="images/cart7.png" class="cardpic animate1"></a>	
@@ -571,6 +571,13 @@
 		 }else if ((isset($_GET["developerword12"]) && $_GET["developerword12"] == 'value')) 	{
 		require_once 'courseshell.php';			
 		require_once 'developerwords/developerword12.php';
+	//удаление элемента див с главной страницы 
+			 echo ('<script>training.parentNode.removeChild(training);	 
+		 </script>');
+		 }else if ((isset($_GET["var8"]) && $_GET["var8"] == 'value')) 	{
+			 
+		require_once 'connect.php';
+		require_once 'prioritytraining/prioritytraining.php';
 	//удаление элемента див с главной страницы 
 			 echo ('<script>training.parentNode.removeChild(training);	 
 		 </script>');
